@@ -1,4 +1,4 @@
-# UserProfileSystem
+# ProfileManager
 
 A C++ console application for collecting and displaying user profile information, built as a hands-on project to practice core C++ concepts.
 
