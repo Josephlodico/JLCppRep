@@ -1,21 +1,33 @@
-# JLCppRep
+# UserProfileSystem
 
-A personal repository where I store projects and exercises as I learn C++.
+A C++ console application for collecting and displaying user profile information, built as a hands-on project to practice core C++ concepts.
 
-## What's in here
+## Features
 
-This repo is a collection of my C++ work as I progress through learning the language — including small programs, exercises, and larger projects. It's mostly for my own reference and to track my progress over time.
+- Prompts the user to enter their name, age, date of birth, email, and password
+- Validates age input (must be between 1 and 120)
+- Displays a formatted profile summary with the password masked
 
-## Structure
+## Project Structure
 
-As the repo grows, projects and exercises will be organized into folders. Each folder should contain its own notes or comments explaining what it covers.
+```
+UserProfileSystem/
+├── User.h                  # User class declaration
+├── User.cpp                # Input and display logic
+└── UserProfileSystem.cpp   # Entry point (main)
+```
+
+## Setup & Build
+
+Built with **Visual Studio 2022** targeting Windows (MSVC v143). No external dependencies — uses the C++ standard library only.
+
+1. Clone the repository
+2. Open `UserProfileSystem.sln` in Visual Studio
+3. Select a configuration (`Debug` or `Release`) and platform (`x64` recommended)
+4. Build with **Ctrl+Shift+B** and run with **Ctrl+F5**
 
 ## Goals
 
-- Get comfortable with core C++ concepts (pointers, memory management, OOP, etc.)
-- Work through progressively more complex projects
-- Keep a record of what I've built and learned along the way
-
-## Notes
-
-This is a learning repo, so code quality and approaches will vary as my understanding improves. Feel free to browse, but keep in mind things may be rough around the edges!
+- Practice OOP in C++ (classes, encapsulation, constructors)
+- Handle user input safely with validation and buffer management
+- Build toward a more complete profile system over time
